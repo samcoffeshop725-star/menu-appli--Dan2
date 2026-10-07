@@ -1,0 +1,14 @@
+{
+  "name": "boutique-telegram-miniapp",
+  "version": "1.5.0",
+  "description": "Mini-app Telegram boutique néon : panier, news, notifications, commandes WhatsApp ou Signal, statistiques de visites, fichier clients exportable",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

@@ -1,0 +1,11 @@
+# Configuration Render — indique le bon langage et la commande de démarrage
+services:
+  - type: web
+    name: samshop
+    runtime: node
+    plan: free
+    buildCommand: echo "aucune dependance a installer"
+    startCommand: node server.js
+    envVars:
+      - key: TZ
+        value: Europe/Paris
